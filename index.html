@@ -6,7 +6,7 @@
   <style>
     body {
       font-family: 'Comic Sans MS', cursive, sans-serif;
-      background-color: #87CEEB;
+      background-color: #93C3DC; /* Light Blue */
       margin: 0;
       padding: 0;
       display: flex;
@@ -15,21 +15,24 @@
       height: 100vh;
     }
     .video-container {
-      background-color: #FFA500;
+      background-color: #F4C0A4; /* Peach */
       border-radius: 15px;
       padding: 20px;
       width: 80%;
       max-width: 1000px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      text-align: center;
     }
     .video-container:hover {
       transform: translateY(-5px);
       transition: transform 0.3s ease;
     }
     .video-container h2 {
-      color: #0077BE;
+      color: #0077BE; /* Bluey Blue */
       text-align: center;
       margin-bottom: 20px;
+      font-size: 28px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     }
     .video-wrapper {
       position: relative;
@@ -37,6 +40,7 @@
       padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
       border-radius: 10px;
       overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     .video-wrapper iframe {
       position: absolute;
@@ -46,6 +50,7 @@
       height: 100%;
       border: none;
       border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
     }
   </style>
 </head>
